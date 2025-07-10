@@ -52,7 +52,7 @@ namespace Forza3
         {
             if (Version > 2)
             {
-                throw new ForzaException("Unknown version of Forza 3! Please report this to a Horizon developer at www.horizonmb.com.");
+                throw new ForzaException("Unknown version of Forza 3! Please report this to: https://github.com/unknownv2");
             }
 
             //Create an HMAC-SHA Creator-Unique key based on the save's version number.

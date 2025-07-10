@@ -187,7 +187,7 @@ namespace Horizon
             
             // Misc
             addForm(FormID.About, null, "About", FormType.Misc, Resources.About_Thumb, FormAccess.Anyone);
-            addForm(FormID.Visit, null, "HorizonMB.com", FormType.Misc, Resources.VisitUs_Thumb, FormAccess.Anyone);
+            addForm(FormID.Visit, null, "https://github.com/unknownv2", FormType.Misc, Resources.VisitUs_Thumb, FormAccess.Anyone);
         }
 
         // This function is called when a form button is clicked.
@@ -237,7 +237,7 @@ namespace Horizon
         {
             if ((access == FormAccess.Diamond && !User.isLogged) || (access == FormAccess.User && !User.isLogged))
             {
-                DialogResult loggedIn =  UI.messageBox("You must be logged in to use this!\n\nAre you registered on HorizonMB.com?",
+                DialogResult loggedIn =  UI.messageBox("You must be logged in to use this!\n\n",
                     "Not Logged In", MessageBoxIcon.Information, MessageBoxButtons.YesNoCancel, MessageBoxDefaultButton.Button2);
                 if (loggedIn == DialogResult.Yes)
                 {
