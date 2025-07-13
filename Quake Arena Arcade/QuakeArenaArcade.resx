@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtExamples.Text" xml:space="preserve">
+    <value>Note:
+You must enable devmap and sv_cheats to use most mods!
+You must be HOST to cheat in multiplayer!
+
+Buttons Maps
+This represents the binds. On the left is the button as we know it. On the right is the name Quake assigns it as. So we see it as "DPAD UP" Quake calls it "UPARROW".
+
+DPAD Up		UPARROW
+DPAD Down	DOWNARROW
+DPAD Left	LEFTARROW
+DPAD Right	RIGHTARROW
+Right Trigger	MOUSE1
+Left Trigger	MOUSE2
+A Button		JOY1
+B Button		JOY2
+X Button		JOY3
+Y Button		JOY4
+Left Bumper	JOY5
+Right Bumper	JOY6
+Back Button	JOY7
+Start Button	JOY8
+Left Stick		JOY9
+Right Stick	JOY10
+
+Commands:
+Replace "BUTTON" with the button you wish to bind it to.
+
+bind BUTTON "cg_thirdPerson 1"
+-Turn on third person view.
+
+bind BUTTON "cg_thirdPerson 0"
+-Turn off third person view.
+
+bind BUTTON "god"
+-Enable god mode.
+
+bind BUTTON "giveall"
+-Give all weapons.
+
+bind BUTTON "devmap mapname"
+-Load a map. (Must be the actual map file name.)
+
+bind BUTTON "sv_cheats 1"
+-Enable cheats.
+
+bind BUTTON "sv_cheats 0"
+-Disable cheats.
+
+bind BUTTON "noclip"
+-Enable noclip.
+
+bind BUTTON "cg_draw2d 1"
+-Turn off HUD.
+
+bind BUTTON "cg_draw2d 0"
+-Turn on HUD.
+
+bind BUTTON "cg_fov VALUE"
+-Change the field of view. Replay "VALUE" with a number. Lower is more zoomed, default is set at 90.
+
+bind BUTTON "cg_drawGun 1"
+-Hide gun model.
+
+bind BUTTON "cg_drawGun 0"
+-Show gun model.
+
+bind BUTTON "g_speed VALUE"
+-Change player speed. Replace "VALUE" with a number. Higher the number, faster the player. Default is set at 320.
+
+bind BUTTON "g_gravity VALUE"
+-Change player gravity. Replace "VALUE" with a number. Lower the number, less gravity. Default is set at 800.
+
+Here is a modded, example config file:
+// generated by QAA, do not modify
+unbindall
+bind UPARROW "cg_thirdPerson 1"
+bind DOWNARROW "cg_thirdPerson 0"
+bind LEFTARROW "god"
+bind RIGHTARROW "give all"
+bind MOUSE1 "+attack"
+bind MOUSE2 "g_speed 320"
+bind JOY1 "sv_cheats 1;noclip;"
+bind JOY2 "say "LOL HOLY **** MODS""
+bind JOY3 "cg_draw2d 0"
+bind JOY4 "cg_draw2d 1"
+bind JOY5 "g_speed 1000"
+bind JOY6 "+button2"
+bind JOY7 "devmap mptourney1"
+bind JOY8 "pause"
+bind JOY9 "+movedown"
+bind JOY10 "centerview"
+seta cg_ach_collect_em_all2 "0"
+seta cg_ach_collect_em_all1 "0"
+seta cg_ach_weapon_master "0"
+seta cg_ach_arena_eternal "0"
+seta cg_ach_icanwin "0"
+seta cg_ach_gladiator "0"
+seta ui_weaponStayBackup "0"
+seta ui_spSkillBackup "2"
+seta ui_maxclientsBackup "16"
+seta ui_timeLimitBackup "60"
+seta ui_fragLimitBackup "10"
+seta ui_captureLimitBackup "5"
+seta ui_minBotPlayersBackup "0"
+seta ui_privateSlotsBackup "0"
+seta ui_gameTypeBackup "0"
+seta ui_currentMapBackup "0"
+seta ui_localSettingsBackedUp "0"
+seta g_maxGameClients "0"
+seta ui_fragLimit "10"
+seta ui_captureLimit "5"
+seta ui_minBotPlayers "0"
+seta ui_privateSlots "0"
+seta ui_mapIndex "0"
+seta ui_currentMap "0"
+seta ui_spCompleted "0"
+seta railSpiral "0"
+seta cg_drawGun "1"
+seta cg_drawCrosshair "4"
+seta cg_forceSport "0"
+seta cg_forceModel "0"
+seta cg_zoomToggle "0"
+seta allow_net_connectiontype "0"
+seta net_connectiontype "0"
+seta s_musicvolume "0.6"
+seta s_volume "1.0"
+seta keybind_btn_gauntlet_custom "unused"
+seta keybind_btn_railgun_custom "LEFTARROW"
+seta keybind_btn_centerView_custom "JOY10"
+seta keybind_btn_crouch_custom "JOY9"
+seta keybind_btn_finisher_custom "DOWNARROW"
+seta keybind_btn_close_custom "RIGHTARROW"
+seta keybind_btn_heavy_custom "UPARROW"
+seta keybind_btn_lastWeapon_custom "JOY1"
+seta keybind_btn_zoom_custom "JOY5"
+seta keybind_btn_spin180_custom "JOY2"
+seta keybind_btn_useItem_custom "JOY6"
+seta keybind_btn_prevWeapon_custom "JOY3"
+seta keybind_btn_nextWeapon_custom "JOY4"
+seta keybind_btn_jump_custom "MOUSE2"
+seta color2 "5"
+seta color1 "4"
+seta headmodel "james"
+seta model "james"
+seta cl_southpaw "0"
+seta m_pitch "0.022"
+seta cg_autoswitch "1"
+seta g_spSkill "2"
+seta ySensitivity "2.5"
+seta xSensitivity "5"
+seta sensitivity "5"
+seta sv_maxclients "8"
+seta r_gamma "1.0"
+seta ui_modelIndex "22"
+seta ui_gametype "0"
+seta ui_ControlScheme "default"
+seta ui_maxclients "16"
+seta snaps "60"
+seta rate "32000"
+seta timelimit "60"
+seta fraglimit "10"
+seta com_blood "1"
+seta cl_vibration "1"
+seta capturelimit "5"
+
+&lt;3 Cody
+</value>
+  </data>
+</root>
