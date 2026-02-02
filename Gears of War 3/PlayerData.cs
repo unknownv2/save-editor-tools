@@ -1358,14 +1358,9 @@ namespace Horizon.PackageEditors.Gears_of_War_3
                     || Stats[x].ID == EntryID.Horde_Sentry_Investment
                     || Stats[x].ID == EntryID.Horde_Silverback_Investment
                     || Stats[x].ID == EntryID.Horde_Turret_Investment)
-                    Stats[x].nData = 100863999;*/
+                    Stats[x].nData = 100863999;
 
-                if (Stats[x].ID == EntryID.SyncID)
-                    Stats[x].nData++;
-                else if ((int)Stats[x].ID >= 2 && (int)Stats[x].ID <= 0x0193)
-                    Stats[x].nData = 2;
-
-                /*// Ribbons and Medals
+                // Ribbons and Medals
                 if ((int)Stats[x].ID >= 2 && (int)Stats[x].ID <= 0x0193)
                     Stats[x].nData = 0;
 
